@@ -15,7 +15,7 @@ tar zc keymaps | $SSH_GUEST '
 #!/bin/ash -efu
 void_keymap() {
   printf "keymaps 0\n"
-  seq 1 255 | sed -e "s/.*/keycode & =/"
+  seq 0 255 | sed -e "s/.*/keycode & =/"
 }
 
 do_dump() {
