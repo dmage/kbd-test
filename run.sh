@@ -12,22 +12,30 @@ done
 
 printf '\033[36m%s\033[0m\n' "+ Generate dump of keymaps using system kbd..."
 tar zc keymaps | $SSH_GUEST '
+#!/bin/ash -efu
+void_keymap() {
+  printf "keymaps 0\n"
+  seq 1 255 | sed -e "s/.*/keycode & =/"
+}
+
 do_dump() {
   local outdir="$1"
   mkdir -p "./$outdir"
   find ./keymaps -type f -name "*.map" | sed -e "s#./keymaps/##" | while read -r f; do
     n=$(printf "%s" "$f" | tr -c "A-Za-z0-9.-" "_")
-    if loadkeys -c -s "./keymaps/$f" >/dev/null 2>"./$outdir/$n"; then
-      dumpkeys >>"./$outdir/$n"
+    void_keymap | loadkeys -c -s >/dev/null
+    if loadkeys "./keymaps/$f" >/dev/null 2>"./$outdir/$n"; then
+      dumpkeys -f >>"./$outdir/$n"
     else
       echo "please check $outdir/$n" >&2
     fi
   done
+  echo "OK $outdir" >&2
 }
 
 TMPDIR=$(mktemp -d -t kbd-test.XXXXXXXX)
 cd "$TMPDIR"
-tar zx
+tar zx --warning=no-unknown-keyword
 
 kbd_mode -u
 do_dump dump/unicode
