@@ -1,3 +1,4 @@
+charset "iso-8859-2"
 keymaps 0-2,4-6,8,10,12
 keycode   1 = Escape           Escape           Escape           Escape           Escape           Escape           Meta_Escape      Escape           Escape          
 keycode   2 = one              exclam           asciitilde       VoidSymbol       VoidSymbol       VoidSymbol       Meta_one         VoidSymbol       VoidSymbol      

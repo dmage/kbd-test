@@ -1,3 +1,4 @@
+charset "iso-8859-2"
 keymaps 0-5,8,12,64-79
 keycode   1 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
 keycode   2 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      

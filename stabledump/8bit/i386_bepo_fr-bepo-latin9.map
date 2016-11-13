@@ -1,3 +1,4 @@
+charset "iso-8859-15"
 keymaps 0-15
 keycode   1 = Escape           Escape           VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
 keycode   2 = +quotedbl        +one             VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       Meta_quotedbl    Meta_one         VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      

@@ -1,3 +1,4 @@
+charset "iso-8859-4"
 keymaps 0-15
 keycode   1 = Escape           Escape           Escape           Escape           VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       Meta_Escape      Meta_Escape      Meta_Escape      Meta_Escape      VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
 keycode   2 = one              exclam           VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       Meta_one         Meta_exclam      Meta_one         Meta_exclam      F202             F202             F202             F202            

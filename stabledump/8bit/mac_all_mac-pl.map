@@ -1,3 +1,4 @@
+charset "iso-8859-2"
 keymaps 0-5,8-9,12
 keycode   1 = +s               +S               VoidSymbol       VoidSymbol       Control_s        Control_s        Meta_s           Meta_S           Meta_Control_s  
 keycode   2 = +d               +D               +d               +D               Control_d        Control_d        Meta_d           Meta_D           Meta_Control_d  
