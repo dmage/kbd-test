@@ -1,1 +1,3 @@
-loadkeys: ./keymaps/i386/qwertz/de_alt_UTF-8.map:152: unicode keysym out of range: U+FB01
+unknown keysym 'dagger'
+
+lk_add_key called with bad keycode -1

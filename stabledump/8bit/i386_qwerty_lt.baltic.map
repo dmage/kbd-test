@@ -2,11 +2,11 @@ charset "iso-8859-4"
 keymaps 0-2,4-6,8-9,12
 keycode   1 = Escape           Escape           VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
 keycode   2 = +amacron         +Amacron         exclam           nul              nul              nul              one              VoidSymbol       VoidSymbol      
-keycode   3 = +egrave          +Egrave          at               nul              nul              nul              two              VoidSymbol       VoidSymbol      
+keycode   3 = +ccaron          +Ccaron          at               nul              nul              nul              two              VoidSymbol       VoidSymbol      
 keycode   4 = +ae              +AE              numbersign       nul              nul              nul              three            VoidSymbol       VoidSymbol      
 keycode   5 = +ediaeresis      +Ediaeresis      dollar           nul              nul              nul              four             VoidSymbol       VoidSymbol      
 keycode   6 = +aacute          +Aacute          percent          nul              nul              nul              five             VoidSymbol       VoidSymbol      
-keycode   7 = +eth             +ETH             asciicircum      nul              nul              nul              six              VoidSymbol       VoidSymbol      
+keycode   7 = +dstroke         +Dstroke         asciicircum      nul              nul              nul              six              VoidSymbol       VoidSymbol      
 keycode   8 = +oslash          +Ooblique        ampersand        nul              nul              nul              seven            VoidSymbol       VoidSymbol      
 keycode   9 = +ucircumflex     +Ucircumflex     asterisk         nul              nul              nul              eight            VoidSymbol       VoidSymbol      
 keycode  10 = nine             parenleft        parenleft        nul              nul              nul              nine             VoidSymbol       VoidSymbol      
