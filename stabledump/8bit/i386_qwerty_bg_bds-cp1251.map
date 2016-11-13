@@ -282,7 +282,7 @@ string Prior = "\033[5~"
 string Next = "\033[6~"
 string Macro = "\033[M"
 string Pause = "\033[P"
-string F24 = "ÿ77777763ÿ77777777ÿ77777677o\016\005\010"
+string F24 = "\37777777763\37777777777\37777777677o\016\005\010"
 compose '`' 'A' to U+00c0
 compose '`' 'a' to U+00e0
 compose '\'' 'A' to U+00c1
