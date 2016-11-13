@@ -280,15 +280,15 @@ string Remove = "\033[3~"
 string Select = "\033[4~"
 string Prior = "\033[5~"
 string Next = "\033[6~"
-compose '\'' 'a' to U+00e1
-compose '\'' 'e' to U+00e9
-compose '\'' 'i' to U+00ed
-compose '\'' 'o' to U+00f3
-compose '\'' 'u' to U+00fa
-compose '\'' 'A' to U+00c1
-compose '\'' 'E' to U+00c9
-compose '\'' 'I' to U+00cd
-compose '\'' 'O' to U+00d3
-compose '\'' 'U' to U+00da
-compose '"' 'u' to U+00fc
-compose '"' 'U' to U+00dc
+compose '\'' 'a' to aacute
+compose '\'' 'e' to eacute
+compose '\'' 'i' to iacute
+compose '\'' 'o' to oacute
+compose '\'' 'u' to uacute
+compose '\'' 'A' to Aacute
+compose '\'' 'E' to Eacute
+compose '\'' 'I' to Iacute
+compose '\'' 'O' to Oacute
+compose '\'' 'U' to Uacute
+compose '"' 'u' to udiaeresis
+compose '"' 'U' to Udiaeresis

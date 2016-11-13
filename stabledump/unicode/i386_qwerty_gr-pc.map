@@ -280,26 +280,26 @@ string Remove = "\033[3~"
 string Select = "\033[4~"
 string Prior = "\033[5~"
 string Next = "\033[6~"
-compose '\'' 'U' to U+00ea
-compose '\'' 'D' to U+00eb
-compose '\'' '\007' to U+00ec
-compose '\'' '\015' to U+00ed
-compose '\'' 'N' to U+00ee
-compose '\'' '7' to U+00ef
-compose '\'' 'W' to U+00f0
-compose '\'' 'Y' to U+00e1
-compose '\'' '\\' to U+00e2
-compose '\'' 'c' to U+00e3
-compose '\'' ' ' to U+00e5
-compose '\'' '¦' to U+00e6
-compose '\'' '¬' to U+00e7
-compose '\'' 'à' to U+00e9
-compose '"' '\015' to U+010d
-compose '"' '7' to U+0137
-compose '"' ' ' to U+00e4
-compose '"' '¬' to U+00e8
-compose '^' ' ' to U+002b
-compose '^' '¬' to U+002b
-compose '\'' '\'' to U+003b
-compose '"' '"' to U+003a
-compose '\'' ' ' to U+0027
+compose '\'' '€' to ecircumflex
+compose '\'' '„' to ediaeresis
+compose '\'' '†' to igrave
+compose '\'' 'ˆ' to iacute
+compose '\'' 'Ž' to icircumflex
+compose '\'' '“' to idiaeresis
+compose '\'' '—' to eth
+compose '\'' '˜' to aacute
+compose '\'' 'œ' to acircumflex
+compose '\'' 'ž' to atilde
+compose '\'' ' ' to aring
+compose '\'' '¦' to ae
+compose '\'' '¬' to ccedilla
+compose '\'' 'à' to eacute
+compose '"' 'ˆ' to U+0088
+compose '"' '“' to U+0093
+compose '"' ' ' to adiaeresis
+compose '"' '¬' to egrave
+compose '^' ' ' to plus
+compose '^' '¬' to plus
+compose '\'' '\'' to semicolon
+compose '"' '"' to colon
+compose '\'' ' ' to apostrophe

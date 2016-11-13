@@ -281,4 +281,4 @@ string Remove = "\033[3~"
 string Select = "\033[4~"
 string Prior = "\033[5~"
 string Next = "\033[6~"
-compose 'c' 'h' to U+05d7
+compose 'c' 'h' to het

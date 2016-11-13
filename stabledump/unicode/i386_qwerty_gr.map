@@ -280,26 +280,26 @@ string Remove = "\033[3~"
 string Select = "\033[4~"
 string Prior = "\033[5~"
 string Next = "\033[6~"
-compose '\'' '‘' to U+0386
-compose '\'' '•' to U+0388
-compose '\'' '—' to U+0389
-compose '\'' '™' to U+038a
-compose '\'' 'Ÿ' to U+038c
-compose '\'' '¥' to U+038e
-compose '\'' '©' to U+038f
-compose '\'' '±' to U+03ac
-compose '\'' 'µ' to U+03ad
-compose '\'' '·' to U+03ae
-compose '\'' '¹' to U+03af
-compose '\'' '¿' to U+03cc
-compose '\'' 'Å' to U+03cd
-compose '\'' 'É' to U+03ce
-compose '"' '™' to U+03aa
-compose '"' '¥' to U+03ab
-compose '"' '¹' to U+03ca
-compose '"' 'Å' to U+03cb
-compose '^' '¹' to U+0390
-compose '^' 'Å' to U+03b0
-compose '\'' '\'' to U+003b
-compose '"' '"' to U+003a
-compose '\'' ' ' to U+0027
+compose '\'' '‘' to Alphaaccent
+compose '\'' '•' to Epsilonaccent
+compose '\'' '—' to Etaaccent
+compose '\'' '™' to Iotaaccent
+compose '\'' 'Ÿ' to Omicronaccent
+compose '\'' '¥' to Upsilonaccent
+compose '\'' '©' to Omegaaccent
+compose '\'' '±' to alphaaccent
+compose '\'' 'µ' to epsilonaccent
+compose '\'' '·' to etaaccent
+compose '\'' '¹' to iotaaccent
+compose '\'' '¿' to omicronaccent
+compose '\'' 'Å' to upsilonaccent
+compose '\'' 'É' to omegaaccent
+compose '"' '™' to Iotadiaeresis
+compose '"' '¥' to Upsilondiaeresis
+compose '"' '¹' to iotadiaeresis
+compose '"' 'Å' to upsilondiaeresis
+compose '^' '¹' to iotadiaeresisaccent
+compose '^' 'Å' to upsilondiaeresisaccent
+compose '\'' '\'' to semicolon
+compose '"' '"' to colon
+compose '\'' ' ' to apostrophe

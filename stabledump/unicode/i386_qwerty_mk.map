@@ -282,7 +282,7 @@ string Prior = "\033[5~"
 string Next = "\033[6~"
 string Macro = "\033[M"
 string Pause = "\033[P"
-compose '5' '.' to U+0451
-compose '8' '.' to U+0439
-compose '\025' '.' to U+0401
-compose '\030' '.' to U+0419
+compose '5' '.' to cyrillic_small_letter_io
+compose '8' '.' to cyrillic_small_letter_short_i
+compose '\025' '.' to cyrillic_capital_letter_io
+compose '\030' '.' to cyrillic_capital_letter_short_i

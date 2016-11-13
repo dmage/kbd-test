@@ -281,7 +281,7 @@ string Remove = "\033[3~"
 string Select = "\033[4~"
 string Prior = "\033[5~"
 string Next = "\033[6~"
-compose 'e' '=' to U+20ac
-compose '-' 'e' to U+20ac
-compose '-' 'E' to U+20ac
-compose '=' 'E' to U+20ac
+compose 'e' '=' to euro
+compose '-' 'e' to euro
+compose '-' 'E' to euro
+compose '=' 'E' to euro

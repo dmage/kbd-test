@@ -282,7 +282,7 @@ string Prior = "\033[5~"
 string Next = "\033[6~"
 string Macro = "\033[M"
 string Pause = "\033[P"
-compose 'å' '.' to U+00b8
-compose 'è' '.' to U+00e9
-compose 'Å' '.' to U+00a8
-compose 'È' '.' to U+00c9
+compose 'å' '.' to cedilla
+compose 'è' '.' to eacute
+compose 'Å' '.' to diaeresis
+compose 'È' '.' to Eacute
