@@ -1,12 +1,18 @@
 #!/bin/sh -efu
-LOADKEYS=loadkeys
-if [ -x ./bin/loadkeys ]; then
-    LOADKEYS=./bin/loadkeys
+if [ -z "${LOADKEYS-}" ]; then
+    if [ -x ./bin/loadkeys ]; then
+        LOADKEYS=./bin/loadkeys
+    else
+        LOADKEYS=loadkeys
+    fi
 fi
 
-DUMPKEYS=dumpkeys
-if [ -x ./bin/dumpkeys ]; then
-    DUMPKEYS=./bin/dumpkeys
+if [ -z "${DUMPKEYS-}" ]; then
+    if [ -x ./bin/dumpkeys ]; then
+        DUMPKEYS=./bin/dumpkeys
+    else
+        DUMPKEYS=dumpkeys
+    fi
 fi
 
 
