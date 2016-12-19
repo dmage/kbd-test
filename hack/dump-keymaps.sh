@@ -15,6 +15,8 @@ if [ -z "${DUMPKEYS-}" ]; then
     fi
 fi
 
+: "${KBD_MODE=kbd_mode}"
+
 
 void_keymap() {
     printf "keymaps 0\n"
@@ -51,8 +53,8 @@ printf "%s: " "$LOADKEYS"; $LOADKEYS -V
 printf "%s: " "$DUMPKEYS"; $DUMPKEYS -V
 ) >&2
 
-kbd_mode -u
+$KBD_MODE -u
 do_dump dump/unicode dumper_flags_unicode
 
-kbd_mode -a
+$KBD_MODE -a
 do_dump dump/8bit dumper_flags_8bit
