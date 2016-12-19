@@ -1,3 +1,5 @@
 unknown keysym 'quotedblbase'
 
+unknown keysym 'right_double_quotation_mark'
+
 lk_add_key called with bad keycode -1

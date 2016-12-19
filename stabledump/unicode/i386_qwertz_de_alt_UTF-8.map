@@ -1,1 +1,2 @@
-loadkeys: ./keymaps/i386/qwertz/de_alt_UTF-8.map:152: unicode keysym out of range: U+FB01
+unicode keysym out of range: U+FB01
+syntax error, unexpected ERROR, expecting NUMBER or LITERAL or PLUS or UNUMBER
